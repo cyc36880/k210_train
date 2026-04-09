@@ -1,0 +1,28 @@
+{
+    "train_set":"path_to_file/shuffle_train_labels.txt",
+    "valid_set":"path_to_file/shuffle_val_labels.txt",
+    
+    "learning_rate": -1,
+    "batch_size": 16,
+    "learning_rate_schedule_file": "../training_policy/lr/lr.txt",
+    "max_epochs":240,
+
+    "weight_decay":5e-4,
+    "use_batch_norm": true,
+
+	"width":320,
+    "height":240,
+    "grid_w": 10,
+    "grid_h": 8,
+
+    "ignore_thresh": 0.6,
+    
+    "num_class" : 1,
+    "anchors" : ["anchors_to_replace"],
+
+
+    "_comment": "Directory where to write event logs",
+    "logs_dir": "ckpt_save",
+
+    "model_def":"models.mobilenetv1_yolo_lite"
+}
