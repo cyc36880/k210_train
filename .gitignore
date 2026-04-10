@@ -47,9 +47,9 @@ dataset_process/
 # Training checkpoints (large files)
 ckpt_save_*/
 *.ckpt*
-#*.meta
-#*.index
-#*.data-00000-of-00001
+# *.meta
+# *.index
+# *.data-00000-of-00001
 events.out.tfevents.*
 
 # Dataset images (user should add their own)
