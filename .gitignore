@@ -46,7 +46,7 @@ dataset_process/
 
 # Training checkpoints (large files)
 ckpt_save_*/
-*.ckpt*
+# *.ckpt*
 # *.meta
 # *.index
 # *.data-00000-of-00001
